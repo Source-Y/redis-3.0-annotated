@@ -43,7 +43,7 @@ ifeq ($(USE_TCMALLOC_MINIMAL),yes)
 endif
 
 ifeq ($(USE_JEMALLOC),yes)
-	MALLOC=jemalloc
+	MALLOC=libc
 endif
 
 # Override default settings if possible
